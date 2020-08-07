@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_weight="13"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/msgbox"
+        tools:context=".Chat">
+
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+
+        >
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:hint="Enter Message"
+            android:id="@+id/message"
+
+            ></EditText>
+
+        <Button
+            android:id="@+id/btnChoose"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="0dp"
+            android:textColor="#ffff"
+            android:text="Img"
+            android:textSize="14sp"
+            android:background="#087CB1"
+            android:layout_weight="1"
+            android:layout_marginBottom="10dp"
+            ></Button>
+
+
+
+        <Button
+        android:id="@+id/send"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#ffff"
+        android:text="send"
+        android:textSize="24sp"
+        android:background="#008577"
+        android:layout_weight="3"
+        android:layout_marginBottom="10dp"
+        ></Button>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
