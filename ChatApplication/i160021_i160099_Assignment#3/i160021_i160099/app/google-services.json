@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "1061666340348",
+    "firebase_url": "https://i160021i160099.firebaseio.com",
+    "project_id": "i160021i160099",
+    "storage_bucket": "i160021i160099.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061666340348:android:b74579fe50635f0ec0c679",
+        "android_client_info": {
+          "package_name": "com.zeelawahab.i160021_i160099"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061666340348-fhjcq1pdm7gsen9ajcubjm6c35bs2pq0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zeelawahab.i160021_i160099",
+            "certificate_hash": "e117ab4746a8bf8ffa66c7d125fe1393a61fb9bc"
+          }
+        },
+        {
+          "client_id": "1061666340348-1k151tgeh7kiulgcban6e210tknb8mqs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zeelawahab.i160021_i160099",
+            "certificate_hash": "9fa3fbfa4bffaba3fc4b39f9d08c0921f2ed6ae7"
+          }
+        },
+        {
+          "client_id": "1061666340348-p19voqrt5qd2pa2ccbl151u51j12ucoj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANgecM6S6rv3ytxqnIfzKO75QJpvUjzvM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061666340348-p19voqrt5qd2pa2ccbl151u51j12ucoj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
